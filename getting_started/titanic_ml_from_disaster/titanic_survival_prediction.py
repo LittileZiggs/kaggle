@@ -1,12 +1,12 @@
 import pandas as pd
-from sklearn.linear_model import SGDClassifier
+from sklearn.linear_model import LogisticRegressionCV as lrcv
 from numpy import *
 
-def loadDataSet(fileName):
-    raw_dataMat = pd.read_csv(fileName)
-    return raw_dataMat
+def load_dataset(fileName):
+    raw_datamat = pd.read_csv(fileName)
+    return raw_datamat
 
-def preProcessData(raw_dataMat):
+def preprocess_data(raw_dataMat):
     m,n = shape(raw_dataMat)
     label = mat(raw_dataMat['Survived']).T
 
@@ -47,5 +47,10 @@ def preProcessData(raw_dataMat):
     # df = pd.DataFrame(dataMat)
     return dataMat, label
 
+def preprocess_training_set():
+    raw_datamat = load_dataset('data/train.csv')
+    training_datamat = preprocess_data(raw_datamat[:700])
+    return training_datamat
+
 def logisticRegression(dataMat, label):
-    return SGDClassifier
+    return lrcv()
