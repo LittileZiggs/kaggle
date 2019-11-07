@@ -34,7 +34,7 @@ payloadHeader = {
     "Connection": "keep-alive",
     "Content-Length": "631",
     "Content-Type": "text/plain;charset=UTF-8",
-    "Cookie": "JSESSIONID=SAZdowWTResgzYc0Gfpa1wIowhSryBEJiCK6dnkPnl0N001aMFPn!-1020405545",
+    "Cookie": "*",
     "Host": "xqjy.e21.cn",
     "Origin": "http://xqjy.e21.cn",
     "Referer": "http://xqjy.e21.cn/forward.action?path=/portal/portal&p=childmng&menu_id=3001",

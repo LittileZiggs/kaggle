@@ -13,7 +13,7 @@ headers = {
         "Accept-Encoding": "gzip, deflate",
         "Accept-Language": "en-US,en;q=0.9",
         "Connection": "keep-alive",
-        "Cookie": "Secure; Secure; JSESSIONID=ma87jhyiO3aPCrNhBbWMRq9UM7UcNYA_K2YHq8Nz_UREx4hbnU2f!245788412!1362545518"
+        "Cookie": "*"
              }
 url = "http://xszz.e21.cn/poorStudent/yj-difficulty-stu!queryStudentBasicInfo.action"
 form_data = "start=0&limit=39360&filterValue=&filterTxt=&dateFilter=&startDate=&endDate=&searchForm=&searchFormJm=l%5CygWd%C2%96%C3%8D%C3%9F%C3%9F%C3%9C%C3%9C%C3%98%C3%9D%C2%BA%C2%B1%C3%9B%C3%9B%C3%91%C2%91Wdl_WdfYWd%5EQWd%C2%96%C3%8D%C3%9F%C3%9F%C3%9C%C3%9C%C3%98%C3%9D%C2%B1%C2%B2%C3%93%C3%89%C2%8AWdl_Wdffbggdd%60%60%60%60%60UWdW%5C%7B"
